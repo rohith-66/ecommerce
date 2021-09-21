@@ -1,0 +1,44 @@
+
+
+<p>
+  <strong>Name:</strong>
+  <%= @address.name %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @address.phone %>
+</p>
+
+<p>
+  <strong>Add lane1:</strong>
+  <%= @address.add_lane1 %>
+</p>
+
+<p>
+  <strong>Add lane2:</strong>
+  <%= @address.add_lane2 %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @address.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @address.state %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @address.country %>
+</p>
+
+<p>
+  <strong>Pin:</strong>
+  <%= @address.pin %>
+</p>
+
+<%= link_to 'Edit', edit_address_path(@address), class:"btn btn-warning" %> |
+<%= link_to 'Back', addresses_path, class:"btn btn-secondary"%>

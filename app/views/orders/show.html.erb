@@ -1,0 +1,24 @@
+
+
+<p>
+  <strong>Order number:</strong>
+  <%= @order.order_number %>
+</p>
+
+<p>
+  <strong>Date of order:</strong>
+  <%= @order.date_of_order %>
+</p>
+
+<p>
+  <strong>Billing address:</strong>
+  <%= @order.billing_address %>
+</p>
+
+<p>
+  <strong>Shipping address:</strong>
+  <%= @order.shipping_address %>
+</p>
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>
